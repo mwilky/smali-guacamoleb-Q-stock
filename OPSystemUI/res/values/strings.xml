@@ -696,7 +696,7 @@ If you resume, charges may apply for data usage."</string>
     <string name="force_rtl_layout_all_locales">Force RTL layout direction</string>
     <string name="force_rtl_layout_all_locales_summary">Force screen layout direction to RTL for all locales</string>
     <string name="forced_resizable_secondary_display">App may not work on a secondary display.</string>
-    <string name="global_action_emergency">@android:string/global_action_emergency</string>
+    <string name="global_action_emergency">@android:string/global_action_lock</string>
     <string name="global_action_screenshot">Screenshot</string>
     <string name="go_to_web">Go to browser</string>
     <string name="got_it">Got it</string>
@@ -1506,9 +1506,9 @@ You're also connected to a VPN, which can monitor your network activity."</strin
     <string name="quick_settings_switch_user_storage_insufficient">Storage is full, cannot switch user</string>
     <string name="quick_settings_tethering_label">Tethering</string>
     <string name="quick_settings_tiles">default</string>
-    <string name="quick_settings_tiles_default">wifi,cell,bt,flashlight,rotation,battery,airplane,night,location,dataswitch,dnd,nfc,custom(com.android.phone/com.android.wificalling.OPWifiCallingTitle),game,read,hotspot,custom(com.oneplus.brickmode/.service.BreathModeTileService),custom(com.oneplus.screenrecord/.core.SystemUITileService),custom(com.oneplus.carmode/.tile.CarModeTileService)</string>
+    <string name="quick_settings_tiles_default">wifi,cell,bt,flashlight,rotation,battery,airplane,night,location,dataswitch,dnd,nfc,custom(com.android.phone/com.android.wificalling.OPWifiCallingTitle),game,read,hotspot,custom(com.oneplus.brickmode/.service.BreathModeTileService),custom(com.oneplus.screenrecord/.core.SystemUITileService),custom(com.heytap.speechassist/.skill.drivingmode.internal.DrivingModeTileService)</string>
     <string name="quick_settings_tiles_guest">wifi,bt,flashlight,rotation,powersaving,airplane,night,location,game,nfc,hotspot,saver</string>
-    <string name="quick_settings_tiles_retail_mode">wifi,cell,bt,flashlight,rotation,battery,airplane,night,location,dataswitch,dnd,nfc,custom(com.android.phone/com.android.wificalling.OPWifiCallingTitle),game,read,hotspot,custom(com.oneplus.brickmode/.service.BreathModeTileService),custom(com.oneplus.screenrecord/.service.SystemUITileService),custom(com.oneplus.carmode/.tile.CarModeTileService)</string>
+    <string name="quick_settings_tiles_retail_mode">wifi,cell,bt,flashlight,rotation,battery,airplane,night,location,dataswitch,dnd,nfc,custom(com.android.phone/com.android.wificalling.OPWifiCallingTitle),game,read,hotspot,custom(com.oneplus.brickmode/.service.BreathModeTileService),custom(com.oneplus.screenrecord/.service.SystemUITileService),custom(com.heytap.speechassist/.skill.drivingmode.internal.DrivingModeTileService)</string>
     <string name="quick_settings_tiles_stock">wifi,cell,battery,bt,rotation,flashlight,airplane,night,location,hotspot,nfc,read,game,otg,dnd,cast,saver,vpn,inversion,dark,work,dataswitch</string>
     <string name="quick_settings_time_label">Time</string>
     <string name="quick_settings_ui_mode_night_label">Dark theme</string>
@@ -1712,7 +1712,7 @@ be monitored"</string>
     <string name="switch_bar_off">Off</string>
     <string name="switch_bar_on">On</string>
     <string name="system_ui_aod_date_pattern">eeeMMMd</string>
-    <string name="system_ui_date_pattern">@android:string/system_ui_date_pattern</string>
+    <string name="system_ui_date_pattern">@android:string/taking_remote_bugreport_notification_title</string>
     <string name="system_ui_tuner">System UI Tuner</string>
     <string name="tag_status_bar">statusBar</string>
     <string name="tap_to_sign_up">Tap to sign up</string>
