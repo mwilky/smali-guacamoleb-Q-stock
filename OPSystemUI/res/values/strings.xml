@@ -357,7 +357,7 @@
     <string name="battery_saver_notification_title">Battery Saver is on</string>
     <string name="battery_saver_start_action">Turn on Battery Saver</string>
     <string name="battery_usage_extanded">Battery Saver may extend usage for about %s based on your usage</string>
-    <string name="battery_usage_remaining">Should last about %s based on your usage. Reduces performance and background data.</string>
+    <string name="battery_usage_remaining_time">%s left</string>
     <string name="biometric_dialog_confirm">Confirm</string>
     <string name="biometric_dialog_empty_space_description">Empty region, tap to cancel authentication</string>
     <string name="biometric_dialog_face_icon_description_authenticated">Face authenticated</string>
@@ -696,7 +696,7 @@ If you resume, charges may apply for data usage."</string>
     <string name="force_rtl_layout_all_locales">Force RTL layout direction</string>
     <string name="force_rtl_layout_all_locales_summary">Force screen layout direction to RTL for all locales</string>
     <string name="forced_resizable_secondary_display">App may not work on a secondary display.</string>
-    <string name="global_action_emergency">@android:string/global_action_lock</string>
+    <string name="global_action_emergency">@android:string/global_action_emergency</string>
     <string name="global_action_screenshot">Screenshot</string>
     <string name="go_to_web">Go to browser</string>
     <string name="got_it">Got it</string>
@@ -1712,7 +1712,7 @@ be monitored"</string>
     <string name="switch_bar_off">Off</string>
     <string name="switch_bar_on">On</string>
     <string name="system_ui_aod_date_pattern">eeeMMMd</string>
-    <string name="system_ui_date_pattern">@android:string/taking_remote_bugreport_notification_title</string>
+    <string name="system_ui_date_pattern">@android:string/system_ui_date_pattern</string>
     <string name="system_ui_tuner">System UI Tuner</string>
     <string name="tag_status_bar">statusBar</string>
     <string name="tap_to_sign_up">Tap to sign up</string>
@@ -1911,7 +1911,6 @@ Any user can update apps for all other users."</string>
     <string name="wapi_password_length_is_min_to_max">The password must be: 8-64 characters</string>
     <string name="wapi_yes">yes</string>
     <string name="wifi_ap_unable_to_handle_new_sta">Access point temporarily full</string>
-    <string name="wifi_auth_password_wrong">Password may be incorrect</string>
     <string name="wifi_auto_sel_wapi_cert">Select automatically</string>
     <string name="wifi_cant_connect">"Can't connect"</string>
     <string name="wifi_cant_connect_to_ap">"Can't connect to '%1$s'"</string>

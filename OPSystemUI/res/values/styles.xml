@@ -56,7 +56,7 @@
     </style>
     <style name="AppEntitiesHeader.Text" parent="@android:style/TextAppearance.Material.Subhead">
         <item name="android:textColor">?android:textColorPrimary</item>
-        <item name="android:fontFamily">@android:string/config_headlineFontFeatureSettings</item>
+        <item name="android:fontFamily">@android:string/config_headlineFontFamilyMedium</item>
     </style>
     <style name="AppEntitiesHeader.Text.HeaderTitle" parent="@style/AppEntitiesHeader.Text">
         <item name="android:textSize">14.0sp</item>
@@ -76,7 +76,7 @@
     </style>
     <style name="BarChart.Text" parent="@android:style/TextAppearance.Material.Subhead">
         <item name="android:textColor">?android:textColorPrimary</item>
-        <item name="android:fontFamily">@android:string/config_headlineFontFeatureSettings</item>
+        <item name="android:fontFamily">@android:string/config_headlineFontFamilyMedium</item>
     </style>
     <style name="BarChart.Text.HeaderTitle" parent="@style/BarChart.Text">
         <item name="android:textSize">14.0sp</item>
@@ -3212,6 +3212,20 @@
         <item name="timePickerStyle">?android:timePickerStyle</item>
         <item name="toolbarStyle">@style/OPWidget.Material.Toolbar</item>
     </style>
+    <style name="Oneplus_Theme_BiometricDialog_Dark" parent="@style/Theme.SystemUI">
+        <item name="android:textColorPrimary">@color/oneplus_contorl_text_color_primary_dark</item>
+        <item name="android:textColorSecondary">@color/oneplus_contorl_text_color_secondary_dark</item>
+        <item name="android:listDivider">@color/oneplus_contorl_divider_color_dark</item>
+        <item name="android:colorBackgroundFloating">@color/oneplus_contorl_bg_color_bottomsheets_dark</item>
+    </style>
+    <style name="Oneplus_Theme_BiometricDialog_Light" parent="@style/Theme.SystemUI.Light">
+        <item name="android:textColorPrimary">@color/oneplus_contorl_text_color_primary_light</item>
+        <item name="android:textColorSecondary">@color/oneplus_contorl_text_color_secondary_light</item>
+        <item name="android:listDivider">@color/oneplus_contorl_divider_color_light</item>
+        <item name="android:colorBackgroundFloating">@color/oneplus_contorl_bg_color_bottomsheets_light</item>
+    </style>
+    <style name="Oneplus_Theme_Material_Dialog_Alert" parent="@style/Oneplus.Theme.Material.Dialog.Alert" />
+    <style name="Oneplus_Theme_Material_Light_Dialog_Alert" parent="@style/Oneplus.Theme.Material.Light.Dialog.Alert" />
     <style name="Oneplus_bottom_fullscreen" parent="@style/Oneplus.Theme.DeviceDefault.Dialog">
         <item name="android:windowBackground">@color/bg_dialog</item>
         <item name="android:windowFullscreen">true</item>
@@ -3226,16 +3240,6 @@
         <item name="android:textAppearance">@style/oneplus_contorl_text_style_body1</item>
         <item name="android:textSize">@dimen/oneplus_contorl_text_size_body1</item>
         <item name="android:textColor">?wallpaperTextColorSecondary</item>
-    </style>
-    <style name="OverflowMenuStyleDark" parent="@android:style/Widget.Material.PopupMenu.Overflow">
-        <item name="android:popupBackground">@color/oneplus_contorl_bg_color_menu_dark</item>
-        <item name="android:dropDownHorizontalOffset">@dimen/qs_toolbar_menu_offset</item>
-        <item name="android:dropDownVerticalOffset">@dimen/oneplus_contorl_list_item_height_one_line1</item>
-    </style>
-    <style name="OverflowMenuStyleLight" parent="@android:style/Widget.Material.PopupMenu.Overflow">
-        <item name="android:popupBackground">@color/oneplus_contorl_bg_color_menu_light</item>
-        <item name="android:dropDownHorizontalOffset">@dimen/qs_toolbar_menu_offset</item>
-        <item name="android:dropDownVerticalOffset">@dimen/oneplus_contorl_list_item_height_one_line1</item>
     </style>
     <style name="PasswordTheme" parent="@style/Theme.SystemUI">
         <item name="android:textColor">?wallpaperTextColor</item>
@@ -3709,7 +3713,7 @@
     </style>
     <style name="TextAppearance.AppOpsDialog.Title" parent="@style/TextAppearance.AppOpsDialog">
         <item name="android:textSize">@dimen/ongoing_appops_dialog_title_size</item>
-        <item name="android:fontFamily">@android:string/config_headlineFontFeatureSettings</item>
+        <item name="android:fontFamily">@android:string/config_headlineFontFamilyMedium</item>
     </style>
     <style name="TextAppearance.Compat.Notification" parent="@android:style/TextAppearance.Material.Notification" />
     <style name="TextAppearance.Compat.Notification.Info" parent="@android:style/TextAppearance.Material.Notification.Info" />
@@ -3752,7 +3756,7 @@
     <style name="TextAppearance.EntityHeaderTitle" parent="@android:style/TextAppearance.Material.Subhead">
         <item name="android:textSize">20.0sp</item>
         <item name="android:textColor">?android:textColorPrimary</item>
-        <item name="android:fontFamily">@android:string/config_headlineFontFeatureSettings</item>
+        <item name="android:fontFamily">@android:string/config_headlineFontFamilyMedium</item>
     </style>
     <style name="TextAppearance.HeadsUpStatusBarText" parent="@android:style/TextAppearance.DeviceDefault.Notification.Info" />
     <style name="TextAppearance.Keyguard" parent="@style/TextAppearance">
@@ -3760,7 +3764,7 @@
         <item name="android:ellipsize">end</item>
         <item name="android:gravity">center</item>
         <item name="android:maxLines">2</item>
-        <item name="android:fontFamily">@android:string/config_headlineFontFamilyMedium</item>
+        <item name="android:fontFamily">@android:string/config_headlineFontFamily</item>
     </style>
     <style name="TextAppearance.Keyguard.BottomArea" parent="@style/TextAppearance.Keyguard">
         <item name="android:textAppearance">@style/oneplus_contorl_text_style_body1</item>
@@ -3935,19 +3939,19 @@
         <item name="android:textSize">@dimen/notification_importance_button_text</item>
         <item name="android:textColor">@color/notification_guts_priority_contents</item>
         <item name="android:gravity">center</item>
-        <item name="android:fontFamily">@android:string/config_headlineFontFeatureSettings</item>
+        <item name="android:fontFamily">@android:string/config_headlineFontFamilyMedium</item>
     </style>
     <style name="TextAppearance.NotificationImportanceChannel" parent="@style/TextAppearance">
         <item name="android:textSize">@dimen/notification_importance_channel_text</item>
         <item name="android:textSize">@dimen/notification_importance_channel_text</item>
         <item name="android:textColor">@color/notification_guts_header_text_color</item>
-        <item name="android:fontFamily">@android:string/config_headlineFontFeatureSettings</item>
+        <item name="android:fontFamily">@android:string/config_headlineFontFamilyMedium</item>
     </style>
     <style name="TextAppearance.NotificationImportanceChannelGroup" parent="@style/TextAppearance">
         <item name="android:textSize">@dimen/notification_importance_channel_group_text</item>
         <item name="android:textSize">@dimen/notification_importance_channel_group_text</item>
         <item name="android:textColor">@color/notification_guts_sub_text_color</item>
-        <item name="android:fontFamily">@android:string/config_headlineFontFamilyMedium</item>
+        <item name="android:fontFamily">@android:string/config_headlineFontFamily</item>
     </style>
     <style name="TextAppearance.NotificationImportanceDetail" parent="@style/TextAppearance">
         <item name="android:textSize">@dimen/notification_importance_description_text</item>
@@ -3958,7 +3962,7 @@
     <style name="TextAppearance.NotificationImportanceHeader" parent="@style/TextAppearance">
         <item name="android:textSize">@dimen/notification_importance_header_text</item>
         <item name="android:textColor">@color/notification_guts_header_text_color</item>
-        <item name="android:fontFamily">@android:string/config_headlineFontFamilyMedium</item>
+        <item name="android:fontFamily">@android:string/config_headlineFontFamily</item>
     </style>
     <style name="TextAppearance.NotificationInfo" parent="@style/TextAppearance">
         <item name="android:textColor">@color/notification_primary_text_color</item>
@@ -3970,7 +3974,7 @@
         <item name="android:gravity">center_vertical</item>
         <item name="android:background">@drawable/btn_borderless_rect</item>
         <item name="android:focusable">true</item>
-        <item name="android:fontFamily">@android:string/config_headlineFontFeatureSettings</item>
+        <item name="android:fontFamily">@android:string/config_headlineFontFamilyMedium</item>
     </style>
     <style name="TextAppearance.NotificationInfo.Confirmation" parent="@style/TextAppearance.NotificationInfo">
         <item name="android:textSize">14.0sp</item>
@@ -4043,7 +4047,7 @@
     </style>
     <style name="TextAppearance.QS.TileLabel" parent="@style/TextAppearance.QS">
         <item name="android:textSize">@dimen/qs_tile_text_size</item>
-        <item name="android:fontFamily">@android:string/config_headlineFontFamilyMedium</item>
+        <item name="android:fontFamily">@android:string/config_headlineFontFamily</item>
     </style>
     <style name="TextAppearance.QS.TileLabel.Secondary" parent="@style/TextAppearance.QS.TileLabel">
         <item name="android:textSize">@dimen/qs_tile_text_size</item>
@@ -4080,7 +4084,7 @@
         <item name="android:textSize">@dimen/qs_time_expanded_size</item>
         <item name="android:textStyle">normal</item>
         <item name="android:textColor">?android:textColorPrimary</item>
-        <item name="android:fontFamily">@android:string/config_headlineFontFeatureSettings</item>
+        <item name="android:fontFamily">@android:string/config_headlineFontFamilyMedium</item>
     </style>
     <style name="TextAppearance.StatusBar.Expanded.Date" parent="@style/TextAppearance.StatusBar.Expanded">
         <item name="android:textSize">@dimen/qs_time_expanded_size</item>
@@ -5354,10 +5358,10 @@
         <item name="darkIconTheme">@style/QSIconTheme</item>
         <item name="lightIconTheme">@style/QSIconTheme</item>
     </style>
-    <style name="oneplus_theme_dialog_dark" parent="@android:style/Theme.DeviceDefault.Dialog">
+    <style name="oneplus_theme_dialog_dark" parent="@style/Oneplus.Theme.Material.Dialog.Alert">
         <item name="android:colorAccent">@color/oneplus_accent_color</item>
     </style>
-    <style name="oneplus_theme_dialog_light" parent="@android:style/Theme.DeviceDefault.Light.Dialog">
+    <style name="oneplus_theme_dialog_light" parent="@style/Oneplus.Theme.Material.Light.Dialog.Alert">
         <item name="android:colorAccent">@color/oneplus_accent_color</item>
     </style>
     <style name="op_car_mode_dock_animation">
@@ -5367,23 +5371,23 @@
     <style name="op_edit_theme_android" parent="@style/qs_theme">
         <item name="android:colorBackground">?android:colorSecondary</item>
         <item name="android:textColor">@color/oneplus_contorl_text_color_primary_dark</item>
-        <item name="android:actionOverflowMenuStyle">@style/OverflowMenuStyleDark</item>
+        <item name="android:actionOverflowMenuStyle">@style/Oneplus.Widget.Material.PopupMenu.Overflow</item>
     </style>
     <style name="op_edit_theme_dark" parent="@style/qs_theme">
         <item name="android:colorBackground">?android:colorSecondary</item>
         <item name="android:textColor">@color/oneplus_contorl_text_color_primary_dark</item>
-        <item name="android:actionOverflowMenuStyle">@style/OverflowMenuStyleDark</item>
+        <item name="android:actionOverflowMenuStyle">@style/Oneplus.Widget.Material.PopupMenu.Overflow</item>
     </style>
     <style name="op_edit_theme_light" parent="@style/qs_theme">
         <item name="android:colorBackground">?android:colorSecondary</item>
         <item name="android:textColor">@color/oneplus_contorl_text_color_primary_light</item>
-        <item name="android:actionOverflowMenuStyle">@style/OverflowMenuStyleLight</item>
+        <item name="android:actionOverflowMenuStyle">@style/Oneplus.Widget.Material.Light.PopupMenu.Overflow</item>
     </style>
     <style name="op_widget_big">
         <item name="android:textSize">@dimen/widget_big_font_size</item>
         <item name="android:paddingBottom">@dimen/oneplus_bottom_text_spacing_digital</item>
         <item name="android:fontFamily">sans-serif-light</item>
-        <item name="android:fontFeatureSettings">@android:string/config_iccHotswapPromptForRestartDialogComponent</item>
+        <item name="android:fontFeatureSettings">@android:string/config_headlineFontFeatureSettings</item>
     </style>
     <style name="owner_view">
         <item name="android:textSize">13.0dip</item>
@@ -5452,7 +5456,7 @@
         <item name="android:shadowColor">@color/keyguard_shadow_color</item>
         <item name="android:shadowRadius">?shadowRadius</item>
         <item name="android:fontFamily">sans-serif-light</item>
-        <item name="android:fontFeatureSettings">@android:string/config_iccHotswapPromptForRestartDialogComponent</item>
+        <item name="android:fontFeatureSettings">@android:string/config_headlineFontFeatureSettings</item>
     </style>
     <style name="widget_label">
         <item name="android:textSize">@dimen/widget_label_font_size</item>
@@ -5464,7 +5468,7 @@
         <item name="android:paddingBottom">@dimen/bottom_text_spacing_digital</item>
         <item name="android:shadowColor">@color/keyguard_shadow_color</item>
         <item name="android:shadowRadius">?shadowRadius</item>
-        <item name="android:fontFamily">@android:string/config_headlineFontFamilyMedium</item>
+        <item name="android:fontFamily">@android:string/config_headlineFontFamily</item>
     </style>
     <style name="widget_title_bold">
         <item name="android:textSize">@dimen/widget_title_font_size</item>
@@ -5473,6 +5477,6 @@
         <item name="android:paddingBottom">@dimen/widget_vertical_padding_clock</item>
         <item name="android:shadowColor">@color/keyguard_shadow_color</item>
         <item name="android:shadowRadius">?shadowRadius</item>
-        <item name="android:fontFamily">@android:string/config_headlineFontFamilyMedium</item>
+        <item name="android:fontFamily">@android:string/config_headlineFontFamily</item>
     </style>
 </resources>
